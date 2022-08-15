@@ -1,0 +1,19 @@
+# Changelog
+
+## [1.1.0](https://github.com/xgChange/basic-package/compare/v1.0.5...v1.1.0) (2022-08-15)
+
+
+### Features
+
+* init ([fd98444](https://github.com/xgChange/basic-package/commit/fd98444c3bef4417fe6f745e9673866280dc0372))
+* second ([4cde58b](https://github.com/xgChange/basic-package/commit/4cde58bbcbf6b746b5dd07ee988d073c2fd1e811))
+* 增加workflow ([8ea2d51](https://github.com/xgChange/basic-package/commit/8ea2d51c5c0ca4fd28d1745197c89c995cd4b93d))
+
+
+### Bug Fixes
+
+* commit ([08d0aa0](https://github.com/xgChange/basic-package/commit/08d0aa0117543bc1ec2af65d3c13f544782e3e59))
+* ff ([1c84f22](https://github.com/xgChange/basic-package/commit/1c84f22e0fb189f1afa32f0ec3700f7e382ad507))
+* fix ([8cabc2a](https://github.com/xgChange/basic-package/commit/8cabc2a2357dd6ce0348307851160b870caaf3a9))
+* fix ([861ff3c](https://github.com/xgChange/basic-package/commit/861ff3cee8f9aee2619a8396b88aa6a785556f31))
+* fix ([aa0d34e](https://github.com/xgChange/basic-package/commit/aa0d34ee639fd31193b0c42f89601b487187fb0e))

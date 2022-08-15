@@ -4,7 +4,7 @@
   "description": "这是一个basic-package",
   "main": "src/index.js",
   "scripts": {
-    "build": "release-it"
+    "build": "release-it --no-git.push"
   },
   "files": [
     "src"

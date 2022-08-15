@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/xgChange/basic-package/compare/v1.1.2...v1.2.0) (2022-08-15)
+
+
+### Features
+
+* npm publish ([42681b4](https://github.com/xgChange/basic-package/commit/42681b4c3ab1268065ffc511f5251d7c385d1321))
+
 ## [1.1.2](https://github.com/xgChange/basic-package/compare/v1.1.1...v1.1.2) (2022-08-15)
 
 

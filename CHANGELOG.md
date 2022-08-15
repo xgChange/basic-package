@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/xgChange/basic-package/compare/v1.2.1...v1.2.2) (2022-08-15)
+
+
+### Bug Fixes
+
+* delete ([cad361f](https://github.com/xgChange/basic-package/commit/cad361f3ef6d3261cb6aaad70f73e19adfd608b9))
+
 ## [1.2.1](https://github.com/xgChange/basic-package/compare/v1.2.0...v1.2.1) (2022-08-15)
 
 

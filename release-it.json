@@ -1,0 +1,10 @@
+{
+  "git": {
+    "changelog": "git log --pretty=format:'* %s (%h)' [REV_RANGE]"
+  },
+  "github": {
+    "release": true,
+    "releaseName": "Release %s",
+    "tokenRef": "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"
+  }
+}

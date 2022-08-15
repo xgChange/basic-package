@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/xgChange/basic-package/compare/v1.1.1...v1.1.2) (2022-08-15)
+
+
+### Bug Fixes
+
+* 测试一下 ([11da91b](https://github.com/xgChange/basic-package/commit/11da91b6fe7c4d432ae650e322a0bf317b870b1a))
+
 ## [1.1.1](https://github.com/xgChange/basic-package/compare/v1.1.0...v1.1.1) (2022-08-15)
 
 

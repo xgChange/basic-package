@@ -1,6 +1,6 @@
 {
   "name": "basic-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "这是一个basic-package",
   "main": "src/index.js",
   "scripts": {

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/xgChange/basic-package/compare/v1.2.0...v1.2.1) (2022-08-15)
+
+
+### Bug Fixes
+
+* delete npm rc ([489ee7a](https://github.com/xgChange/basic-package/commit/489ee7a3d5f63beb5c6de87a6e3afcbd4a7c18c3))
+
 ## [1.2.0](https://github.com/xgChange/basic-package/compare/v1.1.2...v1.2.0) (2022-08-15)
 
 

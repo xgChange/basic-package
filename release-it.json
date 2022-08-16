@@ -1,9 +1,8 @@
 {
-  "git": {
-    "changelog": "git log --pretty=format:'* %s (%h)' [REV_RANGE]"
+  "npm": {
+    "publish": false
   },
-  "github": {
-    "release": true,
-    "releaseName": "Release %s"
+  "git": {
+    "commitMessage": "release: 更新版本至 ${version}"
   }
 }

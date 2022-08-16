@@ -10,10 +10,7 @@ jobs:
     steps:
       - name: Update CHANGELOG
         id: changelog
-        uses: Requarks/changelog-action@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ github.ref_name }}
+        uses: scottbrenner/generate-changelog-action@master
       - name: run test
         run: echo ${{ steps.changelog.outputs.changes }}
       - name: Draft

@@ -10,9 +10,9 @@ jobs:
     steps:
       - name: Update CHANGELOG
         id: changelog
-        uses: scottbrenner/generate-changelog-action@master
+        uses: heinrichreimer/github-changelog-generator-action@v2.3
       - name: run test
-        run: echo ${{ steps.changelog.outputs.changes }}
+        run: echo ${{ steps.changelog.outputs.changelog }}
       - name: Draft
         uses: release-drafter/release-drafter@v5
         id: create_release

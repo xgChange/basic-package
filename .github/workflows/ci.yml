@@ -3,8 +3,6 @@ name: CI
 on:
   push:
     branches: main
-  pull_request:
-    types: [opened, reopened, synchronize]
 
 jobs:
   CI:
@@ -31,16 +29,3 @@ jobs:
       # 执行任务
       - name: execute jobs
         run: npm run hello
-      # 生成 release draft
-      - name: Draft
-        uses: release-drafter/release-drafter@v5
-        id: create_release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # 发布 release
-      - name: publish release
-        uses: eregon/publish-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          release_id: ${{ steps.create_release.outputs.id }}

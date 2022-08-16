@@ -58,7 +58,7 @@
             "section": "🔧 Continuous Integration | CI 配置"
           }
         ],
-        "commitUrlFormat": "https://github.com/lpreterite/datagent/commit/{{hash}}"
+        "commitUrlFormat": "https://github.com/xgChange/basic-package/commit/{{hash}}"
       }
     }
   }

@@ -1,8 +1,7 @@
+# 打tag + release + 发布npm
 name: Relase-Npm
 
-on:
-  pull_request:
-    types: [closed]
+on: pull_request
 
 jobs:
   CI:

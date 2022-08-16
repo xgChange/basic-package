@@ -12,7 +12,7 @@ jobs:
         id: changelog
         uses: Requarks/changelog-action@v1
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.ref_name }}
       - name: run test
         run: echo ${{ steps.changelog.outputs.changes }}

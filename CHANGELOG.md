@@ -1,3 +1,18 @@
+
+
+### [1.3.3](https://github.com/xgChange/basic-package/compare/v1.3.2...v1.3.3) (2022-08-16)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* commit format ([f634769](https://github.com/lpreterite/datagent/commit/f634769afe1745cad5d2804218db2fbe0d00f76c))
+
+
+### 📦 Chores | 其他更新
+
+* 22 ([2c9266b](https://github.com/lpreterite/datagent/commit/2c9266b7a2874cfef87401540b993eb5c16d1dfa))
+* 依赖 ([547d5de](https://github.com/lpreterite/datagent/commit/547d5deed4d81fd208ccfac1db1b5f14487aa532))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.

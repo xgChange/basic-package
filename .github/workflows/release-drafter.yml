@@ -11,13 +11,17 @@ jobs:
       - name: Update CHANGELOG
         id: changelog
         uses: heinrichreimer/github-changelog-generator-action@v2.3
-      - name: run test
-        run: echo ${{ steps.changelog.outputs.changelog }}
       - name: Draft
         uses: release-drafter/release-drafter@v5
         id: create_release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: commit changelog.md
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with: 
+          branch: main
+          commit_message: 'docs: update CHANGELOG.md for ${{ github.ref_name }} [skip ci]'
+          file_pattern: CHANGELOG.md
       - name: publish release
         uses: eregon/publish-release@v1
         env:

@@ -1,11 +1,12 @@
 {
   "name": "asam-basic-package",
-  "version": "1.2.10",
+  "version": "1.2.12",
   "description": "这是一个basic-package",
   "main": "src/index.js",
   "scripts": {
     "build": "release-it",
-    "hello": "echo hello"
+    "hello": "echo hello",
+    "release": "standard-version release-as"
   },
   "files": [
     "src"
@@ -16,6 +17,7 @@
   "author": "Asam",
   "license": "ISC",
   "devDependencies": {
-    "release-it": "^15.3.0"
+    "release-it": "^15.3.0",
+    "standard-version": "^9.5.0"
   }
 }

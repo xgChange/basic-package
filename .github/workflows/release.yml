@@ -1,4 +1,4 @@
-name: CI
+name: Relase-Npm
 
 on:
   pull_request:
@@ -21,13 +21,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # 发布 release
-      - name: publish release
+      - name: Publish Release
         uses: eregon/publish-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release_id: ${{ steps.create_release.outputs.id }}
-      - name: publish to npm
+      - name: Publish To Npm
         uses: JS-DevTools/npm-publish@v1
         with: 
           token: ${{ secrets.NPM_TOKEN }}

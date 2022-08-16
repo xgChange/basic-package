@@ -10,7 +10,8 @@ categories:
   - title: 'Maintenance'
     labels:
       - 'chore'
-    title: 'Doc Change'
+  - title: 'Doc Change'
+    labels:
       - 'doc'
       - 'style'
 change-template: '- $TITLE (#$NUMBER) @$AUTHOR'

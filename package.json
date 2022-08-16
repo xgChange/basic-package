@@ -1,10 +1,11 @@
 {
-  "name": "basic-package",
+  "name": "asam-basic-package",
   "version": "1.2.2",
   "description": "这是一个basic-package",
   "main": "src/index.js",
   "scripts": {
-    "build": "release-it"
+    "build": "release-it",
+    "hello": "echo hello"
   },
   "files": [
     "src"

@@ -1,5 +1,12 @@
 
 
+### [1.3.5](https://github.com/xgChange/basic-package/compare/v1.3.4...v1.3.5) (2022-08-17)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 1 ([a42ec6e](https://github.com/xgChange/basic-package/commit/a42ec6e270c0b9c3b90eea1829325cd08933abd9))
+
 ### [1.3.4](https://github.com/xgChange/basic-package/compare/v1.3.3...v1.3.4) (2022-08-16)
 
 
